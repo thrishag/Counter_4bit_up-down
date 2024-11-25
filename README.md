@@ -26,7 +26,12 @@ The output is Counter which is 4 bit in size.
  
 ![image](https://github.com/user-attachments/assets/efe1095e-989e-4005-b53b-e9dc50d4025c)
 
+
 ## Fig 1: 4 Bit Up/Down Counter
+
+
+![image](https://github.com/user-attachments/assets/303a4e4d-2dcc-4480-9a90-897d1638b006)
+
 
 ## Creating a Work space :
 
@@ -46,13 +51,22 @@ Functional Simulation:
 ## Fig 2: Invoke the Cadence Environment
 
 
+![image](https://github.com/user-attachments/assets/fba2d23e-3cf7-4cc4-968b-15b36c9b3544)
+
+
+
 ## Creating Source Code:
 
 	In the Terminal, type gedit <filename>.v or <filename>.vhdl depending on the HDL Language you are to use (ex: 4b_up_downCount.v).
 
 	A Blank Document opens up into which the following source code can be typed down.
 
+
 (Note : File name should be with HDL Extension)
+
+
+![image](https://github.com/user-attachments/assets/8ac89a74-d514-413a-8527-e18b919830dc)
+
 
 ### Verilog code for 4-Bit Up-Down Counter:
 
@@ -81,6 +95,10 @@ Select Multiple Step and then select “Create cds.lib File” as shown in below
 
 Click the cds.lib file and save the file by clicking on Save option
 
+
+![image](https://github.com/user-attachments/assets/5dac129e-38f9-467b-b932-355b0e447b2b)
+
+
 ## Fig 4: cds.lib file Creation
 
 	Save cds.lib file and select the correct option for cds.lib file format based on the  HDL Language and Libraries used.
@@ -88,6 +106,10 @@ Click the cds.lib file and save the file by clicking on Save option
 	Select “Don’t include any libraries (verilog design)” from “New cds.lib file” and click on “OK” as in below figure
 
 	We are simulating verilog design without using any libraries
+
+
+![image](https://github.com/user-attachments/assets/b7a71131-1ccb-4fd2-91c7-c6bc1d90a1b0)
+
 
 ## Fig 5: Selection of Don’t include any libraries
 
@@ -98,6 +120,10 @@ Click the cds.lib file and save the file by clicking on Save option
 	Left side you can see the HDL files. Right side of the window has worklib and snapshots directories listed.
 
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
+
+
+![image](https://github.com/user-attachments/assets/600f96cb-0710-4c9c-8939-26d999943dc1)
+
 
 ## Fig 6: Nclaunch Window
 
@@ -122,6 +148,10 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
+
+
+![image](https://github.com/user-attachments/assets/dccb0f70-264f-46f4-81d3-05849022ea5a)
+
 
 ## Fig 7: Compiled database in worklib
 
@@ -152,6 +182,10 @@ It contains statements that map logical library names to their physical director
     
 	After elaboration the file will come under snapshot. Select the test bench and simulate it. 
 
+
+![image](https://github.com/user-attachments/assets/aa8753fd-74a1-452c-94cf-2f7bbb6516be)
+
+
 ## Fig 8: Elaboration Launch Option
 
 ### Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour. 
@@ -166,11 +200,21 @@ It contains statements that map logical library names to their physical director
 
 ## Fig 9: Design Browser window for simulation
 
+
+![image](https://github.com/user-attachments/assets/9c2c014a-6bd1-4792-bc1e-9072c07c8399)
+
+
 ## Fig 10: Simulation Waveform Window
+
+
+![image](https://github.com/user-attachments/assets/2b42b02d-77ab-47fc-a230-2abc5efae47e)
+
 
 ## Fig 11: Simulation Waveform Window
 
+
 ### Result
+
 
 The functionality of a 4bit_up-down asynchronous reset Counter was successfully verified using a test bench and simulated with the nclaunch tool.
 
