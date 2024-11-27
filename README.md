@@ -1,4 +1,4 @@
-# Counter_4bit_up-down
+# Ex No:02 Design of 4-bit up-down Counter using nclause Simulator in Cadence-EDA-Tools
 
 ## Aim:
 
@@ -6,7 +6,7 @@ To write a verilog code for 4bit up/down counter and verify the functionality us
 
 ## Tools used for ASIC Flow:
 
-1.	nclaunch- Used for Functional Simulation
+Functional Simulation: nclaunch Simulator(nclaunch)
    
 ## Design Information and Bock Diagram:
 
